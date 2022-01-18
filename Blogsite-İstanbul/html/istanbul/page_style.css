@@ -1,0 +1,354 @@
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #4d4638;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+
+	background-repeat: no-repeat;
+  	background-attachment: fixed;  
+  	background-size: cover;
+	background-color: #ffffff;
+	
+}
+
+a, a:link, a:visited { color: #000; font-weight: bold; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+
+p {  margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+/* em { color: #000; font-weight: bold; font-style: normal } */
+
+#stil {
+font-size: 18px;
+text-align: center;
+	
+ }
+ 
+
+ #p {border-width: 10px; border-color:rgba(255, 135, 2, 0.7); border-style: outset; border-radius: 12px;}
+
+ #a {text-align: center; font-size: 18px; padding:5px 5px 0px 5px; }
+
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 20px 0; padding: 5px 0 }
+h2 { font-size: 58px; text-align: center; font-family:"Arial"; color: rgba(0, 0, 0, 0.7); margin: 10 10 30 10; padding: 5px 10px; }
+h3 { font-size: 24px; text-align: center; margin: 10 10 15px; padding: 20 20px 0 10px; }
+/* h3 { font-size: 28px; text-align: center; font-family:"Arial"; color: rgba(0, 0, 0, 0.7); margin: 10 10 15; padding: 20px 20px 0 10px; } */
+#h { font-size: 28px; text-align: center; font-family:"Arial"; color: rgba(0, 0, 0, 0.8); margin: 10px 3px 25px 5px; padding: 0px 0px 0 0px; }
+
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+
+
+.float_l { float: left }
+.float_r { float: right }
+
+.tooplate_margin { margin: 10px; }
+
+
+
+#tooplate_header {
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+#site_title { 
+	float: left; 
+}
+
+#site_title h1 { 
+	margin: 30px 0 0 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 278px; 
+	height: 50px; 
+	color: #fff; 
+	text-indent: -10000px; 
+	background: url(images/tooplate_logo.png) no-repeat; 
+}
+
+
+#tooplate_menu {
+	float: left;
+	width: 100%;
+	height: 48px;
+	margin-top: 0px;
+	background-color: rgba(255, 135, 2, 0.7);
+	/* border-radius: 20px; */
+	padding-top: 5px;
+
+}
+
+#tooplate_menu ul {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+
+#tooplate_menu ul li {
+	float: left;
+	display: block;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	text-align: center;
+}
+
+#tooplate_menu ul li a {
+	display: block;
+	width: 116px;
+	padding: 9px 4px 9px 0;
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;	
+	text-shadow: 1px 1px 1px #ffffff;
+	font-weight: normal;
+	outline: none;
+	border: none;
+ 	background: url(images/tooplate_menu_divider.png) center right no-repeat
+}
+
+#tooplate_menu ul li a:hover, #tooplate_menu ul li .current { 
+	color: #fff; 
+	text-shadow: 1px 1px 1px black;  
+}
+
+#tooplate_menu ul .last { 
+	background: none; 
+}
+
+#index {
+	clear: both;
+	width: 920px;
+	padding: 30px 0;
+	
+	margin: 0 auto;
+}
+
+/* #tooplate_main {
+	float:left;
+	clear: both;
+	width: 920px;
+	padding: 30px 0;
+	
+	margin: 0 auto;
+} */
+
+
+.col_index { width: 920px; margin-bottom: 40px }
+.col_w960 { width: 1200px; margin-bottom: 40px }
+.col_w600 { width: 600px }
+.col_w450 { width: 450px }
+.col_w300 { width: 300px }
+.col_allw300 { width: 300px; float: left; margin-right: 30px }
+.col_last { margin: 0 }
+.col_w960_last { margin: 0; background: none; }
+.col_last { margin: 0; }
+.text{
+	float: right;
+	font-size: 18px;
+	font-family: Arial;
+
+}
+
+
+/* iletişim */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #202022;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color:rgba(255, 135, 2, 0.7);
+    color: #FFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  .containerF {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgba(255, 135, 2, 0.7);
+    padding: 20px;
+  }
+  .container {
+	overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgba(255, 135, 2, 0.7);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gallery { 
+	margin: 0; 
+	padding: 12px; 
+	width: 100%;
+}
+#gallery .gtablo{
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+#gallery .gtablo td{
+	text-align: center;
+	font-size: 24px;
+}
+#gallery .gtablo td{
+	border: 8px solid rgba(255, 135, 2, 0.7) ;
+	border-radius: 12px;
+}
+#gallery .gtablo img{
+	width: 500px;
+	height: 400px;
+	margin: 5px;
+}
+#gallery .gtablo p {
+	font-size: 28px; 
+	font-family: Serif;
+	text-align: center;
+	font-style: initial ;
+}
+#gallery ul { 
+	margin: 0px; 
+	padding: 0px;
+	margin-left: 2px;
+}
+
+#gallery ul li { 
+	display: block; 
+	float:left; 
+	width: 500px; 
+	margin: 0px 75px 0px 0px; 
+	margin-right: 30px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	padding: 5px; 
+	border: 1px solid rgba(255, 135, 2, 0.7);
+	background: rgba(255, 135, 2, 0.7); 
+}
+
+
+ #gallery ul .third { 
+	margin: 0 0 30px 0; 
+} 
+
+#gallery ul li a img { 
+	border: 1px solid rgba(255, 135, 2, 0.7);
+	margin-bottom: 0px; 
+    
+}
+#history{
+	margin: 0; 
+	padding: 12px; 
+	width: 100%;
+}
+#history .htable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+}
+.htable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
+}
+.htable img {
+	border: 5px solid rgba(255, 135, 2, 0.7) ;
+	border-radius: 8px;
+}
+
+#history .htable img{
+	text-align: center;
+	float: left;
+	
+}
+#history .htable p{
+	display: block;
+	float: left;
+}
+#history .htable td{
+	text-align: right;
+	font-size: 24px;}
+
+	#history .htable td{
+		border: 5px solid rgba(255, 135, 2, 0.7) ;
+		border-radius: 8px;
+	}
+	#history .htable img{
+		width: 500px;
+		height: 400px;
+		margin: 5px;
+	}
+
+
+#tooplate_footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: #FF8702;
+	border-top: 10px solid #FF7C00;
+}
+
+#tooplate_footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	text-align: center;
+	color: #000;
+	background-color: #FF8702; 
+	background:  url(images/tooplate_footer.jpg) top center no-repeat ;
+}
+
+#tooplate_cr a { 
+	color: #5fa008; 
+	font-weight: normal; 
+}

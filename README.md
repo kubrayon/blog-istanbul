@@ -1,1 +1,1 @@
-# blog-stanbul
+##İstanbul hakkında küçük bir blog.
